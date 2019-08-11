@@ -13,7 +13,7 @@ footer{
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding-top: 5rem;
+      padding: 5rem 0 3rem 0;
       .footer-item{
         display:flex;
         flex-direction: column;
@@ -65,17 +65,19 @@ footer{
       padding: 1.5rem 0;
     }
   }
-  @media(min-width: 1015px){
+  @media(min-width: 1185px){
     footer{
    
         .footer-upper{
           flex-direction: row;
+          padding-bottom: 5em;
           .footer-upper-content{
             display: flex;
             flex-direction: row;
             max-width: 1400px;
             .footer-item{
-              width: 90%;
+              width: 75%;
+              margin: 0 1em ;
             }
           }
           
