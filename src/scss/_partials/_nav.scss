@@ -1,6 +1,6 @@
 nav{
    
-  height: 75px;
+
   background: #2c3e50;
   display: flex;  
   justify-content: center;
@@ -36,4 +36,34 @@ nav{
   }
 
     
+}
+@media(min-width:910px){
+  nav{
+   
+
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+    .nav-content{
+     
+     
+      .nav-logo{
+        font-size:1.75rem;      
+       
+      }
+      .nav-menu{
+        display: flex;
+        font-size: 1rem;
+        p{
+          padding: 1rem;
+          font-weight: 600;
+        
+        }
+        
+      }
+    }
+  
+      
+  }
 }

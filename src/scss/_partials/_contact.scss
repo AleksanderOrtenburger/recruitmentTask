@@ -27,6 +27,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      justify-content: center;
       margin: 1.25rem 0 1.5rem;
     }
     .contact-divider{
@@ -46,8 +47,12 @@
     .contact-form{
       display:flex;
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
+      justify-content: center;
       width: 90vw;
+      max-width: 910px;
+     
+     margin: 0 auto;
     
       .contact-item{
         display: flex;
@@ -74,9 +79,28 @@
         font-size: 1.25rem;
         border-radius: .5rem;
         margin-top: 1rem;
+        align-self: flex-start;
+        max-width: 910px;
       }
       
     }
     
+  }
+}
+@media(min-width:911px){
+  .contact{
+   
+    
+    .contact-content{
+     
+      h2{
+        font-size: 3rem;
+        line-height: 2.5rem;       
+      }
+    }
+  }
+  .contact-form{
+    width: 910px;
+    margin: 0 auto;
   }
 }

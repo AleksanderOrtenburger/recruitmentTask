@@ -3,9 +3,8 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;  
   
-  .footer{
-    width: 100%;
     .footer-upper{
       background: #2c3e50;
       color: #fff;
@@ -59,12 +58,26 @@ footer{
 
     }
     .footer-lower{
+      width: 100%;
       background-color: #1a252f;
       color:#fff;
       text-align: center;
       padding: 1.5rem 0;
     }
   }
+  @media(min-width: 1015px){
+    footer{
+   
+        .footer-upper{
+          
+          flex-direction: row;
+          max-width: 1400px;
+         
+          
+            }
+          }
+    
+      
+  }
 
   
-}

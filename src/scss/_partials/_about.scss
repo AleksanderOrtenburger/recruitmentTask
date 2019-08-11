@@ -74,3 +74,43 @@
   }
   
 }
+@media(min-width:911px){
+  .about{
+    
+    .about-content{
+    
+  
+      h2{
+        font-size: 3rem;
+        line-height: 2.5rem;
+       
+      }
+    
+      .article-container{
+        display: flex;
+        flex-direction: row;
+       
+        p{
+          font-size: 1.25rem;
+          font-weight: 300;
+          margin-bottom:1rem;
+          line-height: 1.5rem;
+          width: 22rem;
+          text-align: start;
+          margin-right: 2rem;
+        }
+        :last-child{
+          margin-right: 0;
+        }
+
+    
+      }
+      .about-btn{
+        margin-top: 1.5rem;
+         
+        
+      }
+    }
+    
+  }
+}
