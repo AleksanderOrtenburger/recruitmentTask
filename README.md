@@ -1,2 +1,2 @@
 # recruitmentTask
-Simple landing page. Stack: HTML5,CSS3,SASS
+Simple RWD landing page. Stack: HTML5,CSS3,SASS
