@@ -69,9 +69,14 @@ footer{
     footer{
    
         .footer-upper{
-          
           flex-direction: row;
-          max-width: 1400px;
+          .footer-upper-content{
+            display: flex;
+            flex-direction: row;
+            max-width: 1400px;
+          }
+          
+                   
          
           
             }
