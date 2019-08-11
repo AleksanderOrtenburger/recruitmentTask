@@ -5,27 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Recruitment task</title>
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap&subset=latin-ext" rel="stylesheet">
 </head>
 <body>
   <nav>
     <section class="nav">
-      <p class="nav-logo">start bootstrap</p>
-      <div class="nav-menu">
-        <p class="nav-item">portfolio</p>
-        <p class="nav-item">about</p>
-        <p class="nav-item">contact</p>
-      </div>
+      <div class="nav-content">
+        <p class="nav-logo">start bootstrap</p>
+        <div class="nav-menu">
+          <p class="nav-item">portfolio</p>
+          <p class="nav-item">about</p>
+          <p class="nav-item">contact</p>
+        </div>
+        </nav>
+      
+      
     </section>
-  </nav>
+  </header>
   <section class="hero">
     <div class="hero-content">
       <img src="../src/img/heroImg.png" alt="Hero image" class="hero-image">
       <h1 class="hero-title">start bootstrap</h1>
       <div class="divider hero-divider">
         <div class="divider-line"></div>
-        <div class="divider-star">
-          <i class="divider-star"></i>
+        <div class="divider-icon">
+            <img src="../src/img/starWhite.svg" alt="star" class="star">          
+         
+        </div>
+        <div class="divider-line">         
         </div>
       </div>
       <p class="hero-desc">Web Developer - Graphic Artist - User Experience Designer</p>
@@ -35,9 +43,12 @@
     <div class="portfolio-content">
         <h2 class="portfolio-title">portfolio</h2>
         <div class="divider portfolio-divider">
-          <div class="divider-line"></div>
-          <div class="divider-star">
-            <i class="divider-star"></i>
+            <div class="divider-line"></div>
+            <div class="divider-icon">
+                <img src="../src/img/starGreen.svg" alt="star" class="star">          
+             
+            </div>
+            <div class="divider-line">
           </div>
         </div>
         <div class="portfolio-boxes">
@@ -65,24 +76,23 @@
   <section class="about">
     <div class="about-content">
         <h2 class="about-title">about</h2>
-        <div class="divider portfolio-divider">
+        <div class="divider about-divider">
             <div class="divider-line"></div>
-            <div class="divider-star">
-              <i class="divider-star"></i>
+            <div class="divider-icon">
+                <img src="../src/img/starWhite.svg" alt="star" class="star">          
+             
+            </div>
+            <div class="divider-line">         
             </div>
           </div>
           <article class="about-articles">
             <div class="article-container">
-              <p class="article-content">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-            </div>
-            <div class="article-container">
+              <p class="article-content">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>            
                 <p class="article-content">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
               </div>
           </article>
           <div class=" btn about-btn">
-            <div class="about-btn-icon">
-              <i class="about-download"></i>             
-            </div>
+            <img src="../src/img/download.svg" alt="download" class="about-btn-icon">
             <p class="about-btn-text"> Free Download!</p>
           </div>
 
@@ -90,34 +100,41 @@
     
   </section>
   <section class="contact">
+    <div class="contact-content">
+      <h2 class="contact-title">contact me</h2>
       <div class="divider contact-divider">
           <div class="divider-line"></div>
-          <div class="divider-star">
-            <i class="divider-star"></i>
+          <div class="divider-icon">
+              <img src="../src/img/starGreen.svg" alt="star" class="star">          
+           
           </div>
-          <form class="contact-form">
-            <div class="contact-item">
-              <label for="name"> Name</label>
-              <input type="text" class="contact-name" required="required" id="name" placeholder="Name" >            
-            </div>
-            <div class="contact-item">
-                <label for="email"> Email Address</label>
-                <input type="email" class="contact-email" required="required" id="email" placeholder="Email Address" >              
+          <div class="divider-line">
+        </div>
+      </div>
+            <form class="contact-form">
+              <div class="contact-item">
+                <label for="name"> Name</label>
+                <input type="text" class="contact-name" required="required" id="name" placeholder="Name" >            
               </div>
               <div class="contact-item">
-                  <label for="tel"> Phone Number</label>
-                  <input type="tel" class="contact-tel" required="required" id="tel" placeholder="Phone Number" >
-              </div>
-              <div class="contact-item">
-                  <label for="message"> Message</label>
-                  <textarea rows="5" class="contact-message" required="required" id="tel" placeholder="Message" >
-                    </textarea>
-              </div>
-              <div class=" btn contact-btn">                 
-                  <p class="about-btn-text"> Send</p>
+                  <label for="email"> Email Address</label>
+                  <input type="email" class="contact-email" required="required" id="email" placeholder="Email Address" >              
                 </div>
-
-          </form>
+                <div class="contact-item">
+                    <label for="tel"> Phone Number</label>
+                    <input type="tel" class="contact-tel" required="required" id="tel" placeholder="Phone Number" >
+                </div>
+                <div class="contact-item">
+                    <label for="message"> Message</label>
+                    <textarea rows="5"  class="contact-message" required="required" id="tel" placeholder="Message" ></textarea>
+                </div>
+                <div class=" btn contact-btn">                 
+                    <p class="about-btn-text"> Send</p>
+                  </div>
+  
+            </form>
+    </div>
+     
   </section>
   <footer>
     <section class="footer">
@@ -131,19 +148,19 @@
           <h3 class="footer-title">AROUND THE WEB</h3>
           <div class="footer-icons">
             <div class="footer-icon">
-              <i class="footer-facebook"></i>
+             <img src="../src/img/footer_facebook.svg" alt="facebook logo" class="footer-facebook">
             </div>
             <div class="footer-icon">
-                <i class="footer-googleplus"></i>
+                <img src="../src/img/footer_googleplus.svg" alt="google plus logo" class="footer-googleplus">
               </div>
               <div class="footer-icon">
-                  <i class="footer-twitter"></i>
+                  <img src="../src/img/footer_twitter.svg" alt="twitter logo" class="footer-twitter">
                 </div>
                 <div class="footer-icon">
-                    <i class="footer-linkedin"></i>
+                    <img src="../src/img/footer_linkedin.svg" alt="linkedin logo" class="footer-linkedin">
                   </div>
                   <div class="footer-icon">
-                      <i class="footer-basketball"></i>
+                      <img src="../src/img/footer_basketball.svg" alt="basketball logo" class="footer-basketball">
                     </div>
           </div>
         </div>

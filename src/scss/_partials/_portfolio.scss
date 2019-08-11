@@ -1,0 +1,75 @@
+.portfolio{
+   
+  background: #fff;
+  display: flex;
+  color: #2c3e50;
+  padding-bottom: 6rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0;
+  .portfolio-content{
+    width:90vw;
+    max-width: 1400px;
+    h2{
+      font-size: 2.25rem;
+      line-height: 2rem;
+      text-transform: uppercase;
+      font-weight: 700;
+     
+    }
+    .divider{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1.25rem 0 1.5rem;
+    }
+    .portfolio-divider{
+      .divider-line{
+        width: 7rem;
+        height: .25rem;
+        border-radius:1rem;
+        background: #2c3e50;
+        margin: 1rem;
+       }
+       .star{
+         height: 24px;            
+       
+        
+       }
+    }
+    .portfolio-boxes{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      .box{
+        width: 100vw;
+        margin:1rem 1rem;
+        max-width: 400px;
+        img{
+          padding: 2.5rem 0;
+        }        
+      }
+      .box-one{
+        background: rgb(185,80,103);
+      }
+      .box-two{
+        background: rgb(34,165,182);
+      }
+      .box-three{
+        background: rgb(22,20,19);
+      }
+      .box-four{
+        background: rgb(32, 133, 194);
+      }
+      .box-five{
+        background: rgb(19, 59, 183);
+      }
+      .box-six{
+        background: rgb(203, 179, 164);
+      }
+    }
+  }
+}

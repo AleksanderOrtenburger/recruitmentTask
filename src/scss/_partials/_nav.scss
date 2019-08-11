@@ -1,0 +1,39 @@
+nav{
+   
+  height: 75px;
+  background: #2c3e50;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  
+  .nav-content{
+    width: 90vw;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+    text-transform: uppercase;
+    text-align: center;
+    p{
+      color: #fff;      
+    }
+    .nav-logo{
+      font-size:1.25rem;
+      font-weight: 700;
+     
+    }
+    .nav-menu{
+      display: flex;
+      font-size: 0.6rem;
+      p{
+        padding: 0.15rem;
+      
+      }
+      
+    }
+  }
+
+    
+}
