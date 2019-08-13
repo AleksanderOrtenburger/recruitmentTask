@@ -76,11 +76,16 @@
         background-color: #1abc9c;
         border-color: #1abc9c;
         padding: 1rem 1.75rem;
-        font-size: 1.25rem;
+        
         border-radius: .5rem;
         margin-top: 1rem;
         align-self: flex-start;
         max-width: 910px;
+        cursor: pointer;
+        border:none;
+        p{
+          font-size: 1.25rem;
+        }
       }
       
     }
